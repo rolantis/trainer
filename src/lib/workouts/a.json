@@ -1,0 +1,23 @@
+{
+	"id": "workout-a",
+	"name": "Workout A — Swing rounds",
+	"warmup": [
+		"3-min posture micro-routine",
+		"2 rounds: 10 hip hinges, 10 bodyweight squats, 5 KB halos each way, 5 inchworms, 10 arm circles"
+	],
+	"restHintSeconds": 90,
+	"blocks": [
+		{
+			"type": "rounds",
+			"rounds": 6,
+			"exercises": [
+				{ "name": "KB swings", "reps": 15 },
+				{ "name": "Goblet squats", "reps": 10 },
+				{ "name": "Push-ups on handles", "reps": 10, "note": "vary grip each round" },
+				{ "name": "KB strict press", "reps": 5, "perSide": true },
+				{ "name": "Step-back burpees", "reps": 8, "note": "no jump" }
+			]
+		},
+		{ "type": "total", "name": "Finisher", "exercise": "KB swings", "target": 50, "note": "as few sets as you can" }
+	]
+}

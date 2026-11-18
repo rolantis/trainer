@@ -1,0 +1,30 @@
+{
+	"id": "workout-b",
+	"name": "Workout B — Ladder + complex",
+	"warmup": [
+		"3-min posture micro-routine",
+		"2 rounds: 10 hip hinges, 10 bodyweight squats, 5 KB halos each way, 5 inchworms, 10 arm circles"
+	],
+	"restHintSeconds": 90,
+	"blocks": [
+		{
+			"type": "ladder",
+			"name": "Ladder",
+			"from": 10,
+			"to": 1,
+			"exercises": [{ "name": "Goblet squats" }, { "name": "Push-ups" }]
+		},
+		{
+			"type": "rounds",
+			"name": "Complex",
+			"rounds": 5,
+			"exercises": [
+				{ "name": "KB rows", "reps": 10, "perSide": true, "note": "elbow close to ribs, lower slowly" },
+				{ "name": "Goblet reverse lunges", "reps": 8, "perSide": true },
+				{ "name": "Step-back burpees", "reps": 8, "note": "no jump" },
+				{ "name": "Plank shoulder taps", "reps": 20, "note": "keep hips still" }
+			]
+		},
+		{ "type": "total", "name": "Finisher", "exercise": "KB swings", "target": 100, "note": "any set size" }
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"id": "posture",
+	"name": "Posture & tendon block",
+	"restHintSeconds": 60,
+	"blocks": [
+		{
+			"type": "rounds",
+			"name": "Pelvic tilt",
+			"rounds": 3,
+			"exercises": [
+				{ "name": "Half-kneeling hip flexor stretch", "holdSeconds": 45, "perSide": true, "note": "glute squeezed, tailbone tucked" },
+				{ "name": "Glute bridge", "reps": 15, "note": "2 s squeeze at top" },
+				{ "name": "Dead bug", "reps": 8, "perSide": true, "note": "slow, lower back flat" },
+				{ "name": "RKC plank", "holdSeconds": 20, "note": "squeeze glutes and quads" }
+			]
+		},
+		{
+			"type": "rounds",
+			"name": "Tech neck",
+			"rounds": 2,
+			"exercises": [
+				{ "name": "Chin tucks", "reps": 10, "note": "lying down, hold 5 s each" },
+				{ "name": "Prone Y-T-W raises", "reps": 8, "note": "8 of each letter" },
+				{ "name": "Thoracic extension over roll", "holdSeconds": 60 },
+				{ "name": "Doorway pec stretch", "holdSeconds": 30, "perSide": true }
+			]
+		},
+		{
+			"type": "rounds",
+			"name": "Wall sit",
+			"rounds": 3,
+			"exercises": [{ "name": "Wall sit", "holdSeconds": 45, "note": "knees at 60–90°" }]
+		},
+		{
+			"type": "rounds",
+			"name": "Split-squat hold",
+			"rounds": 3,
+			"exercises": [
+				{ "name": "Split-squat iso hold", "holdSeconds": 30, "perSide": true, "note": "goblet, back knee just above floor" }
+			]
+		},
+		{
+			"type": "rounds",
+			"name": "Single-leg RDL",
+			"rounds": 3,
+			"exercises": [
+				{ "name": "KB single-leg Romanian deadlift", "reps": 8, "perSide": true, "note": "3 s lowering" }
+			]
+		},
+		{
+			"type": "rounds",
+			"name": "Glute bridge hold",
+			"rounds": 3,
+			"exercises": [{ "name": "Single-leg glute bridge hold", "holdSeconds": 30, "perSide": true }]
+		},
+		{
+			"type": "rounds",
+			"name": "Tempo squat",
+			"rounds": 3,
+			"exercises": [{ "name": "Slow tempo goblet squat", "reps": 8, "note": "4 s down, 2 s pause" }]
+		}
+	]
+}
